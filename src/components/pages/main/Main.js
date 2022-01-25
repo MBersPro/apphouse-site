@@ -1,9 +1,11 @@
 import React from "react";
 import Aboutus from "./aboutus/Aboutus";
+
 import Screen from "./screen/Screen";
 import WhatWeDo from "./whatwedo/WhatWeDo";
 import WhyUs from "./whyus/WhyUs";
 import OurTeam from "./ourteam/OurTeam";
+
 const Main = () => {
   return (
     <main>
@@ -12,6 +14,7 @@ const Main = () => {
       <WhatWeDo />
       <WhyUs />
       <OurTeam />
+
     </main>
   );
 };
