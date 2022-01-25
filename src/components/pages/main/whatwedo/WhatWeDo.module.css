@@ -1,0 +1,46 @@
+.whatwedo_background {
+  background-color: #e7edec;
+}
+
+.whatwedo_container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.whatwedo_h3 {
+  font-size: 44px;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  color: #484242;
+  text-align: center;
+}
+.whatwedo_ul {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: -40px;
+}
+
+.whatwedo_li {
+  margin-bottom: 40px;
+  width: 370px;
+}
+
+.whatwedo_img {
+  display: block;
+}
+
+.whatwedo_p {
+  font-size: 25px;
+ text-align: center;
+}
