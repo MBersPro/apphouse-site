@@ -19,8 +19,9 @@ const OurTeam = () => {
                         <p className={styles.PourTeam}>Product Designer</p>
                     </div>
                     <div>
+                        
                         <svg>
-                            <use xlinkHref="./symbol-defs.svg#icon-linkedin-1"></use>
+                            <use xlinkHref="gg.svg#instagram"></use>
                         </svg>
                     </div>
                 </li>
