@@ -8,6 +8,7 @@ import {ReactComponent as Inst} from "./svg/Instagram.svg"
 import {ReactComponent as Twit} from "./svg/Twitter.svg"
 import {ReactComponent as Facebook} from "./svg/Facebook.svg"
 import {ReactComponent as LinkedIn} from "./svg/LinkedIn.svg"
+import { Link } from 'react-router-dom';
 const OurTeam = () => {
     return (
 
@@ -27,18 +28,18 @@ const OurTeam = () => {
                                 <p className={styles.descriptionTeam}>Product Designer</p>
                             </div>
                             <div className={styles.IconSvg}>
-                                <div className={styles.BackIconSvg}>
-                                    <Inst className={styles.iconSvg}/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
+                                <Link to="" className={styles.linkIcon}>
+                                    <Inst className={styles.iconSvg}/> 
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
                                     <Twit className={styles.iconSvg }/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
                                     <Facebook className={styles.iconSvg}/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
                                     <LinkedIn className={styles.iconSvg}/>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </li>
@@ -54,18 +55,18 @@ const OurTeam = () => {
                                 <p className={styles.descriptionTeam}>Marketing</p>
                             </div>
                             <div className={styles.IconSvg}>
-                                <div className={styles.BackIconSvg}>
-                                    <Inst className={styles.iconSvg}/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
-                                    <Twit className={styles.iconSvg}/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
+                                <Link to="" className={styles.linkIcon}>
+                                    <Inst className={styles.iconSvg}/> 
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
+                                    <Twit className={styles.iconSvg }/>
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
                                     <Facebook className={styles.iconSvg}/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
                                     <LinkedIn className={styles.iconSvg}/>
-                                </div>
+                                </Link>
                             </div>
                             
                         </div>
@@ -82,18 +83,18 @@ const OurTeam = () => {
                                 <p className={styles.descriptionTeam}>UI Designer</p>
                             </div>
                             <div className={styles.IconSvg}>
-                                <div className={styles.BackIconSvg}>
-                                    <Inst className={styles.iconSvg}/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
-                                    <Twit className={styles.iconSvg}/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
+                                <Link to="" className={styles.linkIcon}>
+                                    <Inst className={styles.iconSvg}/> 
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
+                                    <Twit className={styles.iconSvg }/>
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
                                     <Facebook className={styles.iconSvg}/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
                                     <LinkedIn className={styles.iconSvg}/>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </li>
@@ -109,18 +110,18 @@ const OurTeam = () => {
                                 <p className={styles.descriptionTeam}>Frontend Developer</p>
                             </div>
                             <div className={styles.IconSvg}>
-                                <div className={styles.BackIconSvg}>
-                                    <Inst className={styles.iconSvg}/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
-                                    <Twit className={styles.iconSvg}/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
+                                <Link to="" className={styles.linkIcon}>
+                                    <Inst className={styles.iconSvg}/> 
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
+                                    <Twit className={styles.iconSvg }/>
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
                                     <Facebook className={styles.iconSvg}/>
-                                </div>
-                                <div className={styles.BackIconSvg}>
+                                </Link>
+                                <Link to="" className={styles.linkIcon}>
                                     <LinkedIn className={styles.iconSvg}/>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </li>
