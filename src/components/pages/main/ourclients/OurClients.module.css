@@ -1,0 +1,23 @@
+.containersOurClients{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.divImgOurClients{
+    display: flex;
+    justify-content: space-between;
+}
+.h3OurClients{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    color: #484242;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}

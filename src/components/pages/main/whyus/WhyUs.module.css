@@ -1,0 +1,61 @@
+.sectionWhyUs{
+    
+}
+.containerWhyUs{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 120px;
+    padding-bottom: 110px;
+}
+.ulWhyUs{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding:0;
+    justify-content: space-between;
+}
+.backIconSvgWhyUs{
+    background: #E7EDEC;
+    border-radius: 4px; 
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.liWhyUs{
+    width: 300px;
+}
+.h3WhyUs{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #212121;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.pWhyUs{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #757575;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.whyus{
+    margin-top: 0;
+    margin-bottom: 100px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;    
+    color: #484242;
+    text-align: center;
+}
+

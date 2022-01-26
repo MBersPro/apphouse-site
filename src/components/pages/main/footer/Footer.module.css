@@ -1,0 +1,25 @@
+.divIconSvg {
+    display: flex;
+    fill: white;
+  }
+.iconSvg {
+    width: 20px;
+    height: 20px;
+    fill: #afb1b8;
+  }
+  .linkIcon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+  .linkIcon:hover .iconSvg {
+    fill: #ffffff;
+  }
+  .linkIcon:hover {
+    background: #67a298;
+    border-radius: 50%;
+    transition: 0.5s;
+  }

@@ -44,6 +44,11 @@ ul {
   font-weight: 500;
   font-size: 24px;
   color: #484242;
+  transition: 1s;
+}
+.navLink:hover {
+  color: #67A298;
+  transition: 0.5s;
 }
 
 .navList {
