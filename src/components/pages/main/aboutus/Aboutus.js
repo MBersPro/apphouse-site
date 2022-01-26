@@ -1,7 +1,11 @@
 import React from "react";
 import styles from "./AboutUs.module.css";
 
-const Aboutus = () => {
+const Aboutus = ({ onModalOpen }) => {
+  const onModalOpener = () => {
+    console.log("some");
+    onModalOpen();
+  };
   return (
     <section>
       <div className={styles.aboutUs_container}>
@@ -14,7 +18,13 @@ const Aboutus = () => {
             самых актуальных каналов продвижения наши клиенты получают
             максимальный охват качественной аудитории по всему миру.
           </p>
-          <button className={styles.btnServices}>Заказать услугу</button>
+          <button
+            onClick={onModalOpener}
+            type="button"
+            className={styles.btnServices}
+          >
+            Заказать услугу
+          </button>
         </div>
       </div>
     </section>

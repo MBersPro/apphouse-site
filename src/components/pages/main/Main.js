@@ -6,15 +6,14 @@ import WhatWeDo from "./whatwedo/WhatWeDo";
 import WhyUs from "./whyus/WhyUs";
 import OurTeam from "./ourteam/OurTeam";
 
-const Main = () => {
+const Main = ({onModalOpen}) => {
   return (
     <main>
       <Screen />
-      <Aboutus />
+      <Aboutus onModalOpen={onModalOpen} />
       <WhatWeDo />
       <WhyUs />
       <OurTeam />
-
     </main>
   );
 };
