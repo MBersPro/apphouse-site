@@ -1,22 +1,16 @@
-.screen_background {
-  background-image: url(./images/IMG_3499.PNG);
-  background-size: cover;
-   /* linear-gradient(to right,
-      rgba(127, 140, 283, 0.35), rgba(103, 162, 152, 0.35)
-    ), */
-}
 .screen_container {
   display: flex;
+
 }
 .screen_lightHalf {
   width: 50%;
   height: 100%;
- /* background: rgba(127, 140, 283, 0.26); */
+  /* background: rgba(127, 140, 283, 0.26); */
 }
 .screen_darkHalf {
   width: 50%;
   height: 100%;
-background: rgba(103, 162, 152, 0.26);
+  background: rgba(103, 162, 152, 0.26);
 }
 .screen1_h1 {
   padding-top: 200px;

@@ -1,0 +1,22 @@
+.back_screen {
+  background: rgba(222, 231, 229, 0.9);
+}
+
+.container {
+  width: 1300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data {
+  width: 50%;
+}
+.form {
+  width: 50%;
+  height: 407px;
+}

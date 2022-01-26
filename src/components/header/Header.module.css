@@ -1,5 +1,4 @@
 .logoNav {
-  display: flex;
   width: 1300px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -7,6 +6,9 @@
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 a {
   text-decoration: none;
@@ -29,7 +31,6 @@ ul {
   font-size: 36px;
   color: black;
   height: 50px;
-
 }
 .logoIcon {
   width: 80px;
@@ -43,28 +44,31 @@ ul {
   font-weight: 500;
   font-size: 24px;
   color: #484242;
-  padding-left: 20px;
 }
 
 .navList {
   display: flex;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 465.3px;
-  
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .divLogo {
   display: flex;
-
 }
+
 .headerInfo {
   display: flex;
 }
+
 .appHouse {
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
-.navLinkActive{
-  color: red;
+
+.logo {
+  display: flex;
+}
+
+.navLi:not(:last-child) {
+  margin-right: 40px;
 }
