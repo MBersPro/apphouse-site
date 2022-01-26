@@ -6,7 +6,7 @@ const Form = () => {
     <form className={styles.form}>
       <label className={styles.label}>
         <div className={styles.title}>Имя</div>
-        <input className={styles.input} />
+        <input className={styles.input}/>
       </label>
       <label className={styles.label}>
         <div className={styles.title}>Телефон</div>
