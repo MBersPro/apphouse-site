@@ -1,0 +1,43 @@
+.requests_background {
+  background: rgba(103, 162, 152, 0.71);
+  height: 800px;
+}
+
+.requests_container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.requests_Qcontainer {
+  width: 50%;
+}
+
+.requests_Rcontainer {
+  width: 50%;
+}
+
+.requests_h4 {
+  font-size: 30px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.requests_Rp {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.requests_Rname {
+    font-weight: bold;
+}
+
+.requests_Rli {
+    margin-bottom: 20px;
+}

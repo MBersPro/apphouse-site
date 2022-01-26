@@ -6,25 +6,35 @@ import Main from "./pages/main/Main";
 import AboutUs from "./pages/abotus/AboutUs";
 import Contacts from "./pages/contacts/Contacts";
 import Modal from "./reused/modal/Modal";
+import Requests from "./pages/requests/Requests";
+import Questions from "./pages/questions/Questions";
 
 const App = () => {
   const [modal, setModal] = useState(false);
+  const [data, setData] = useState([]);
+
+  const onAddData = (state) => {
+    setData((prev) => [...prev, { ...state }]);
+    console.log(data);
+  };
+
   const onModalOpen = () => {
     setModal(true);
   };
   const onModalClose = () => {
-    setModal(false)
-  }
+    setModal(false);
+  };
   return (
     <>
       <Header routes={routes} />
-      {/* <Main /> */}
       <Routes>
         <Route path="/" element={<Main onModalOpen={onModalOpen} />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/contacts" element={<Contacts onAddData={onAddData} />} />
+        <Route path="/questions" element={<Questions />} />
+        <Route path="/requests" element={<Requests requests={data} />} />
       </Routes>
-      {modal && <Modal onModalClose={onModalClose} />}
+      {modal && <Modal onModalClose={onModalClose} onAddData={onAddData} />}
     </>
   );
 };

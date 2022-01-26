@@ -24,4 +24,10 @@ export const routes = [
     component: lazy(() => import("../components/pages/questions/Questions")),
     exact: false,
   },
+  {
+    name: "Запросы",
+    path: "/requests",
+    component: lazy(() => import("../components/pages/requests/Requests")),
+    exact: false,
+  },
 ];

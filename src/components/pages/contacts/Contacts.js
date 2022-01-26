@@ -3,7 +3,7 @@ import BackScreen from "../../reused/backScreen/BackScreen";
 import styles from "./Contacts.module.css";
 import Footer from "../../reused/footer/Footer";
 import Form from "../../reused/form/Form";
-const Contacts = () => {
+const Contacts = ({ onAddData }) => {
   return (
     <>
       <BackScreen>
@@ -17,7 +17,7 @@ const Contacts = () => {
               </div>
             </div>
             <div className={styles.form}>
-              <Form />
+              <Form onAddData={onAddData} />
             </div>
           </div>
         </div>
