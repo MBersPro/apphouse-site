@@ -1,0 +1,12 @@
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.p {
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 0;
+}
+.p:not(:last-child) {
+    margin-bottom: 15px;
+}

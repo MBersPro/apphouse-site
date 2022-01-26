@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./Screen.module.css";
+import BackScreen from "../../../reused/backScreen/BackScreen";
 
 const Screen = () => {
   return (
-    <section className={styles.screen_background}>
+    <BackScreen>
       <div className={styles.screen_container}>
         <div className={styles.screen_lightHalf}>
           <h1 className={styles.screen1_h1}>AppHouse Marketing agency</h1>
@@ -14,7 +15,7 @@ const Screen = () => {
           </h1>
         </div>
       </div>
-    </section>
+    </BackScreen>
   );
 };
 
