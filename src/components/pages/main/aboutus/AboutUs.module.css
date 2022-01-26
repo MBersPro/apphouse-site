@@ -48,4 +48,8 @@
   line-height: 30px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  transition: 1s;
+}
+.btnServices:hover{
+  cursor: pointer;
 }
