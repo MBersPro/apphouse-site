@@ -15,8 +15,39 @@
 
 .data {
   width: 50%;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.data_container {
+  padding-bottom: 70px;
 }
 .form {
   width: 50%;
   height: 407px;
+}
+
+.p_contacts {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: #67a298;
+}
+.p_adress {
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: #67a298;
+}
+.p_mail {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: #67a298;
 }
