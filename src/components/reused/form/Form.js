@@ -30,7 +30,7 @@ const Form = ({ onAddData }) => {
           className={styles.input}
           type="text"
           onChange={onHandleChange}
-          value={state.value}
+          value={state.name}
           name="name"
         />
       </label>
@@ -40,7 +40,7 @@ const Form = ({ onAddData }) => {
           className={styles.input}
           type="text"
           onChange={onHandleChange}
-          value={state.value}
+          value={state.phone}
           name="phone"
         />
       </label>
@@ -50,7 +50,7 @@ const Form = ({ onAddData }) => {
           className={styles.input}
           type="text"
           onChange={onHandleChange}
-          value={state.value}
+          value={state.mail}
           name="mail"
         />
       </label>
@@ -60,7 +60,7 @@ const Form = ({ onAddData }) => {
           className={styles.textarea}
           type="text"
           onChange={onHandleChange}
-          value={state.value}
+          value={state.comment}
           name="comment"
         ></textarea>
       </label>
