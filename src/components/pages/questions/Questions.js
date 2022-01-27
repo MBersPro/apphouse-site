@@ -3,10 +3,22 @@ import { useState } from "react/cjs/react.development";
 import Footer from "../../reused/footer/Footer";
 import styles from "./Questions.module.css";
 
-const Questions = () => {
-    const [question, setQuestion] = useState("")
+const initialState = "";
 
-    const []
+const Questions = ({ onAddQuestion, questions }) => {
+  const [question, setQuestion] = useState("");
+
+  const onHandleSubmit = (e) => {
+    e.preventDefault();
+    onAddQuestion(question);
+    setQuestion(initialState);
+  };
+
+  const onHandleChange = (e) => {
+    const { value } = e.target;
+    setQuestion(() => value);
+    console.log(question);
+  };
 
   return (
     <>
@@ -61,18 +73,26 @@ const Questions = () => {
                 сотрудничества, подходящий для обеих сторон.
               </p>
             </li>
+            {questions.map((item) => (
+              <li className={styles.questions_li}>
+                <p className={styles.questions_question}>{item}</p>
+              </li>
+            ))}
           </ul>
-          <form className={styles.questions_form}>
+          <form
+            className={styles.questions_form}
+            type="submit"
+            onSubmit={onHandleSubmit}
+          >
             <textarea
               placeholder="Задайте ваш вопрос"
               type="text"
               className={styles.questions_textarea}
               onChange={onHandleChange}
-              value={question.value}
+              value={question}
               name="question"
             />
             <button className={styles.questions_button} type="submit">
-              {" "}
               Отправить вопрос
             </button>
           </form>

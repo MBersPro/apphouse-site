@@ -12,6 +12,12 @@ import Questions from "./pages/questions/Questions";
 const App = () => {
   const [modal, setModal] = useState(false);
   const [data, setData] = useState([]);
+  const [questions, setQuestions] = useState([]);
+
+  const onAddQuestion = (state) => {
+    setQuestions((prev) => [...prev, state]);
+    console.log(questions);
+  };
 
   const onAddData = (state) => {
     setData((prev) => [...prev, { ...state }]);
@@ -31,8 +37,16 @@ const App = () => {
         <Route path="/" element={<Main onModalOpen={onModalOpen} />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contacts" element={<Contacts onAddData={onAddData} />} />
-        <Route path="/questions" element={<Questions />} />
-        <Route path="/requests" element={<Requests requests={data} />} />
+        <Route
+          path="/questions"
+          element={
+            <Questions onAddQuestion={onAddQuestion} questions={questions} />
+          }
+        />
+        <Route
+          path="/requests"
+          element={<Requests requests={data} questions={questions} />}
+        />
       </Routes>
       {modal && <Modal onModalClose={onModalClose} onAddData={onAddData} />}
     </>
