@@ -5,7 +5,7 @@
 .iconSvg {
     width: 20px;
     height: 20px;
-    fill: #afb1b8;
+    fill: #ffffff;
   }
   .linkIcon {
     display: flex;
@@ -15,11 +15,90 @@
     align-items: center;
     transition: 1s;
   }
+  .logoApp {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: #67A298;
+    
+  }
+  
+  .logoStudio {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: #F5F4FA;
+    height: 50px;
+  }
   .linkIcon:hover .iconSvg {
     fill: #ffffff;
   }
   .linkIcon:hover {
-    background: #67a298;
+    background: #2196F3;
     border-radius: 50%;
     transition: 0.5s;
   }
+.backFooter{
+  background: rgba(103, 162, 152, 0.74);
+}
+.footer{
+  display: flex;
+}
+.containerFooter{
+  width: 1300;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 140px;
+  padding-bottom: 410px;
+}
+.dataH3Footer{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.joinH3Footer{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+.subH3Footer{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.subBtnFooter{
+  font-family: "Roboto",sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: #67A298;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  width: 200px;
+  height: 50px;
+}

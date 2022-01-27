@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <section className={styles.backFooter}>
             <div className={styles.containerFooter}>
-                <div>
+                <div className={styles.footer}>
                     <div className={styles.divFooterOne}>
                         <span className={styles.logoApp}>App</span>
                         <span className={styles.logoStudio}>House</span>
@@ -38,7 +38,7 @@ const Footer = () => {
 
                     </div>
                     <div className={styles.divFooterFife}>
-                        <button className='subBtnFooter'>Подписаться</button><img src={TeleIcon} alt="TeleIcon"/>
+                        <button className={styles.subBtnFooter}>Подписаться</button><img src={TeleIcon} alt="TeleIcon"/>
                     </div>
                 </div>
             </div>
