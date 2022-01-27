@@ -28,12 +28,18 @@
 
 .close {
   fill: black;
+  transition: 2s;
 }
 
 .close_container:hover .close {
   fill: white;
+  cursor: pointer;
+  transition: 0.5s;
+
 }
 
 .close_container:hover {
   background-color: #67a298;
+  cursor: pointer;
+  transition: 0.5s;
 }

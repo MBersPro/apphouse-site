@@ -45,8 +45,7 @@
   font-size: 22px;
 }
 
-.questions_form {
-}
+
 
 .questions_textarea {
     width: 500px;
@@ -72,4 +71,7 @@
   font-weight: 700;
   letter-spacing: 0.06em;
   font-size: 18px;
+}
+.questions_button:hover{
+  cursor: pointer;
 }

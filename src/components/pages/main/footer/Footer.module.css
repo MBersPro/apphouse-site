@@ -103,6 +103,9 @@
   box-sizing: border-box;
   box-shadow: none;
 }
+.subBtnFooter:hover{
+  cursor: pointer;
+}
 
 .divFooterOne {
   margin-right: 90px;
