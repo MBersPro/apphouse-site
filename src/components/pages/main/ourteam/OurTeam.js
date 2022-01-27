@@ -21,7 +21,7 @@ const OurTeam = () => {
                 <img className={styles.imgMember} src={Igor} alt="Igor" />
               </div>
               <div className={styles.divH3P}>
-                <h3 className={styles.H3ourTeam}>Игорь Демьяненко</h3>
+                <h3 className={styles.H3ourTeam}>Ктото Ктотович</h3>
                 <p className={styles.descriptionTeam}>Product Designer</p>
               </div>
               <div className={styles.IconSvg}>
@@ -71,8 +71,8 @@ const OurTeam = () => {
                 <img className={styles.imgMember} src={Misha} alt="Misha" />
               </div>
               <div className={styles.divH3P}>
-                <h3 className={styles.H3ourTeam}>Михаил Ермаков</h3>
-                <p className={styles.descriptionTeam}>UI Designer</p>
+                <h3 className={styles.H3ourTeam}>Мухаммад Мизаев</h3>
+                <p className={styles.descriptionTeam}>Frontend Developer</p>
               </div>
               <div className={styles.IconSvg}>
                 <Link to="" className={styles.linkIcon}>
@@ -96,7 +96,7 @@ const OurTeam = () => {
                 <img className={styles.imgMember} src={Olga} alt="Olga" />
               </div>
               <div className={styles.divH3P}>
-                <h3 className={styles.H3ourTeam}>Ольга Репина</h3>
+                <h3 className={styles.H3ourTeam}>Берс Мизаев</h3>
                 <p className={styles.descriptionTeam}>Frontend Developer</p>
               </div>
               <div className={styles.IconSvg}>

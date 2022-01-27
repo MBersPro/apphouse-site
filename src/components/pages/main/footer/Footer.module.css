@@ -1,52 +1,51 @@
 .divIconSvg {
-    display: flex;
-    fill: white;
-  }
+  display: flex;
+  fill: white;
+}
 .iconSvg {
-    width: 20px;
-    height: 20px;
-    fill: #ffffff;
-  }
-  .linkIcon {
-    display: flex;
-    width: 50px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    transition: 1s;
-  }
-  .logoApp {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    color: #67A298;
-    
-  }
-  
-  .logoStudio {
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    color: #F5F4FA;
-    height: 50px;
-  }
-  .linkIcon:hover .iconSvg {
-    fill: #ffffff;
-  }
-  .linkIcon:hover {
-    background: #67A298;;
-    border-radius: 50%;
-    transition: 0.5s;
-  }
-.backFooter{
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+.linkIcon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.logoApp {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #67a298;
+}
+
+.logoStudio {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #f5f4fa;
+  height: 50px;
+}
+.linkIcon:hover .iconSvg {
+  fill: #ffffff;
+}
+.linkIcon:hover {
+  background: #67a298;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.backFooter {
   background: rgba(103, 162, 152, 0.74);
 }
-.footer{
+.footer {
   display: flex;
 }
-.containerFooter{
+.containerFooter {
   width: 1300px;
   margin-left: auto;
   margin-right: auto;
@@ -55,7 +54,7 @@
   padding-top: 140px;
   padding-bottom: 230px;
 }
-.dataH3Footer{
+.dataFooter {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -63,9 +62,10 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
+  text-align: center;
 }
-.joinH3Footer{
+.joinFooter {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -73,10 +73,10 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
-
+  color: #ffffff;
+  margin-top: 0;
 }
-.subH3Footer{
+.subFooter {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -84,21 +84,55 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
+  margin-top: 0;
 }
-.subBtnFooter{
-  font-family: "Roboto",sans-serif;
+.subBtnFooter {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
   display: flex;
   align-items: center;
-  text-align: center;
-  color: #FFFFFF;
-  background: #67A298;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 20px;
+  color: #ffffff;
+  background: #67a298;
   border-radius: 4px;
   border: none;
-  width: 200px;
-  height: 50px;
+  width: 150px;
+  box-sizing: border-box;
+  box-shadow: none;
+}
+
+.divFooterOne {
+  margin-right: 90px;
+}
+
+.divFooterTwo {
+  text-align: center;
+  margin-right: 70px;
+}
+.footer_form {
+  display: flex;
+}
+.footer_input {
+  height: 30px;
+  width: 300px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(103, 162, 152, 0);
+  color: white;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.footer_input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button_img {
+  width: 20px;
+  height: 20px;
+  padding-left: 12px;
 }
